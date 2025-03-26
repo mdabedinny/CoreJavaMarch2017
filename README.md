@@ -1,4 +1,5 @@
 # CoreJavaMarch2017
+-- Lookup transaction_type_key from fsc_wells_trans_dim_lkp
 SELECT 
     COALESCE(lkp.transaction_type_key, '') AS transaction_type_key
 FROM transformed_data t
